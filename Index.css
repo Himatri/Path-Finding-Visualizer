@@ -1,0 +1,47 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+	overflow: hidden;
+}
+
+/* Contains everything */
+#main {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+/* Menu */
+#nav {
+	padding: 0 10px 0 10px;
+	height: 50px;
+	background-color: #34495e;
+	box-shadow: 0px 2px 5px grey;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+h1 {
+
+}
+
+button {
+	margin-left: 10px;
+	height: 80%;
+	background-color: #1abc9c;
+	border: none;
+}
+
+
+/* Grid container */
+#container {
+	flex: 1 1 auto;
+	position: relative;
+}
+
+#grid {
+
+}
